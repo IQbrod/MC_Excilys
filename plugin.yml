@@ -1,0 +1,4 @@
+name: BasicPlugin
+version: 1.0
+author: IQbrod
+main: com.iqbrod.basicplugin.EntryPoint
