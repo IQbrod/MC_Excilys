@@ -5,11 +5,12 @@ public class EntryPoint extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        System.out.println("ExcilysPlugin enabled");
+        getServer().getPluginManager().registerEvents(new LoginListener(), this);
+        getLogger().info("Enable ExcilysPlugin!");
     }
 
     @Override
     public void onDisable() {
-        System.out.println("ExcilysPlugin disabled");
+        getLogger().info("Disable ExcilysPlugin");
     }
 }

@@ -1,4 +1,4 @@
-name: BasicPlugin
+name: ExcilysPlugin
 version: 1.0
 author: IQbrod
 main: com.iqbrod.excilysplugin.EntryPoint
