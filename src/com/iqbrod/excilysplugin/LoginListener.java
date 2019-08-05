@@ -11,7 +11,7 @@ public class LoginListener implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        Media media = new Media(ResourceType.MUSIC, "");
+        Media media = new Media(ResourceType.MUSIC, "https://od.lk/s/MTFfMjQ2ODM2NTRf/music1.mp3");
         JukeboxAPI.play(event.getPlayer(), media);
     }
 }
