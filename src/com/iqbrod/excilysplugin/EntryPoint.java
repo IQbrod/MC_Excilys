@@ -13,4 +13,6 @@ public class EntryPoint extends JavaPlugin {
     public void onDisable() {
         getLogger().info("Disable ExcilysPlugin");
     }
+
+    public static void main(String[] args) {}
 }
